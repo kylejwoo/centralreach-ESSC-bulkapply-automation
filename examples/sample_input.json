@@ -1,0 +1,31 @@
+{
+  "source_file": "example_source.xlsx",
+  "client_count": 1,
+  "appointment_count": 2,
+  "clients": [
+    {
+      "client": "JANE DOE",
+      "payment_number": "EFT000000000001",
+      "invoice_number": "PROGR001-000001",
+      "payment_date": "2026-01-15",
+      "appointments": [
+        {
+          "date": "1/6/2026",
+          "submitted_amount": 93.5,
+          "cpt_code": "92507",
+          "staff_name": "SAMPLE STAFF",
+          "pos": ""
+        },
+        {
+          "date": "1/13/2026",
+          "submitted_amount": 93.5,
+          "cpt_code": "92507",
+          "staff_name": "SAMPLE STAFF",
+          "pos": ""
+        }
+      ],
+      "total_appointments": 2,
+      "expected_total": 187.0
+    }
+  ]
+}

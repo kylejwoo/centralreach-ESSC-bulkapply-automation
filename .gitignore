@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- Playwright / browser state ---
+browser_profile/
+playwright-report/
+test-results/
+
+# --- Runtime artifacts (regenerated on every run) ---
+automation.log
+automation.log.*
+debug_bundles/
+screenshots/
+run_summary.csv
+
+# --- Sensitive / client data (never commit real client info) ---
+# The real input file, progress, and processed-client archives contain
+# real client names, payment numbers, and dollar amounts. Keep your working
+# copies of these OUTSIDE the repo, or add local-only overrides here.
+CentralReach_Payment_Automation_Input_with_amounts.json
+CentralReach_Payment_Automation_Input*.json
+progress.json
+processed_clients.json
+
+# --- OS/editor cruft ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
